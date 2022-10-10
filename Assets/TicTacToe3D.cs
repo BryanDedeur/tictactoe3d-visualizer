@@ -37,7 +37,7 @@ public class TicTacToe3D : MonoBehaviour
             GameObject go = Instantiate(numberIdentifier);
             Text idText = go.GetComponentInChildren<Text>();
             idText.text = i.ToString();
-            go.transform.position = positions[i] + new Vector3(0.75f, 0.75f, 0.75f);
+            go.transform.position = positions[i] + new Vector3(0.75f, 0.75f, -0.75f);
         }
     }
 
